@@ -1,0 +1,32 @@
+{
+
+"data":
+
+	{
+		"Movies_Name_Xpath" : "//div[@class='info']/b/a",
+
+		"Movies_Rate_Xpath" : "//*[@class = 'rating rating-list']//span[@class='rating-rating']/span[@class='value']",
+
+		"Movies_Runtime_Xpath": "//div[@class='item_description']",
+
+		"chromedriver" : "/Users/vbabu/Documents/python4dataanalysis/chromedriver",
+
+		"listview":"//a[@data-view='compact']",
+
+		"Movies_Votes_Xpath":"//*[@id='main']/div/div[7]/table/tbody/tr/td[8]",
+
+		"Genre": ["Drama","Drama","Comedy", "Drama", "Family","Drama", "Family","Musical","Drama", "Family","Musical","Musical", "Mystery", "Romance",
+		"Drama", "Romance","Drama", "Romance", "War","Crime", "Drama", "Musical","Drama", "Musical","Drama", "Musical","Romance","Drama", "Musical","Family",
+		"Adventure", "Drama", "Family","Drama", "Musical","Romance","Drama","Drama", "Musical","Comedy","Drama", "Musical","Romance","Drama", "Musical","Romance",
+		"Drama","Drama", "Family","Drama", "Family","Drama","Romance","Action", "Crime", "Drama","Musical", "Romance","Drama","Drama", "Family","Drama",
+		  "Drama", "Family","Comdey","Drama","Action", "Crime", "Drama","Crime", "Drama", "Drama", "Musical", "Romance","Action", "Drama", "Musical",
+		  "Drama", "Family", "Musical","Comedy", "Action", "Crime", "Drama", "Musical", "Romance", "Drama", "Family", "Comedy", "Comedy", "Drama", "Musical",
+		 "Comedy", "Drama", "Musical","Drama", "Romance", "Musical" ,"Comedy", "Musical", "Drama" ,"Comedy", "Musical", "Romance" ,"Comedy", "Drama", "Musical",
+		 "Action", "Crime", "Romance" ,"Adventure", "Drama", "Musical","Musical", "Romance","Drama", "Fantasy", "Romance", "Drama", "Musical", "Romance",
+		 "Drama","Comedy", "Drama", "History","Drama", "Family", "Music","Action", "Adventure", "Biography","Comedy", "Drama","Action", "Comedy", "Crime",
+		 "Adventure", "Comedy", "Drama","Adventure", "Comedy", "Drama","Action", "Biography", "Drama","Adventure", "Comedy", "Drama","Drama", "History", "Romance"]
+		
+	}
+
+}
+
