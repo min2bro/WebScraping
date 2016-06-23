@@ -53,7 +53,7 @@
 					</ul>
 					<p>
 						Github:
-						<a href=" https://github.com/min2bro/WebScraping/blob/master/WebScrapingnDataAnalysis.ipynb"> Github</a>
+						<a href=" https://github.com/min2bro/WebScraping/blob/master/WebScrapingnDataAnalysis.ipynb"> https://github.com/min2bro/WebScraping/</a>
 					</p>
 				</section>
 
@@ -106,13 +106,8 @@
 				<section>
 					<h2>Best Movies</h2>
 					<h3>Filmfare Awards 1955-2015</h3>
-
-				
 				</section>
-				
 				</section>
-
-
 
 				<section>
 				<section>
@@ -126,20 +121,19 @@
 					
 				</section>
 
-
-
 				<section>
 					<h1>Getting Data</h1>
 				</section>
-
-
-
 
 				<section>
 				<section>
 						<h2>Data extraction from Web using Selenium</h2>
 						<img src="images/3.png">
 						<img src="images/4.png">
+					</section>
+					<section>
+						<h2>Selenium vs Others</h2>
+						<img src="images/27.png" height="342" width="1842">
 					</section>
 					<section>
 						<h2>Data format</h2>
@@ -149,6 +143,8 @@
 						['Bajirao Mastani', 'Queen', 'Bhaag Milkha Bhaag', 'Barfi!', 'Zindagi Na Milegi Dobara']
 
 ['17,362', '39,518', '39,731', '52,308', '41,731']
+
+['Director: Sanjay Leela Bhansali', 'Director: Vikas Bahl', 'Director: Anurag Basu']
 						</code>
 						</pre>
 					</section>
@@ -180,8 +176,6 @@
 					</section>
 				</section>
 
-
-
 				<section>
 					<h1>Data Cleansing</h1>
 				</section>
@@ -192,6 +186,8 @@
 					<ul>
 						<li>Replace the <b>Comma</b>(,) in Vote Value and change the data type to int</li>
 						<li>Change the Data type for <b>Rating</b> and <b>RunTime</b></li>
+						<li>Remove description from <b>Run Time</b></li>
+						<li>Null for missing values</b></li>
 					</ul>
 					<img src="images/8.png">
 				</section>
@@ -200,7 +196,7 @@
 <pre>
 <code data-trim data-noescape class="hljs">
 {
-	"Director": "Director: Sanjay Leela Bhansali",
+	"Director": "Sanjay Leela Bhansali",
 	"Votes": 17362,
 	"RunTime": 158,
 	"Year": 2015,
@@ -211,7 +207,7 @@
 </code>
 </pre>
 				</section>
-				<section>
+				<!-- <section>
 					<h2>Find Missing Values in the Table</h2>
 					<img src="images/25.png">
 				</section>
@@ -219,7 +215,7 @@
 				<section>
 					<h2>Replace NaN with Mean value of that Column</h2>
 					<img src="images/26.png">
-				</section>
+				</section> -->
 				</section>
 
 				
@@ -233,6 +229,21 @@
 				</section>
 				<section>
 					<img src="images/10.png">
+				</section>
+				</section>
+
+				<section>
+				<section>
+					<h1>Missing Values</h1>
+				</section>
+				<section>
+					<h2>Records with missing values</h2>
+					<img src="images/25.png">
+				</section>
+
+				<section>
+					<h2>Replace Null Values with Mean</h2>
+					<img src="images/26.png">
 				</section>
 				</section>
 
@@ -287,7 +298,6 @@
 					<section>
 						<h2>Percentage distribution</h2>
 						<img src="images/19.png">
-						<!-- <img src="images/27.png"> -->
 					</section>
 				</section>
 
