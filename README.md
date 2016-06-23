@@ -10,4 +10,6 @@ http://min2bro.github.io/WebScraping/#/
 
 https://www.continuum.io/downloads
 
-## Clone this Repository and access the following Ipython Notebook to follow the code snippets and examples used during the talkhttps://github.com/min2bro/WebScraping/blob/master/WebScrapingnDataAnalysis.ipynb
+## Clone this Repository and access the following Ipython Notebook to follow the code snippets and examples used during the talk
+
+https://github.com/min2bro/WebScraping/blob/master/WebScrapingnDataAnalysis.ipynb
